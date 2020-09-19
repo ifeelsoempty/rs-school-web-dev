@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(/images/Roboto-Regular.ttf);
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.container {
+  position: relative;
+}
+header {
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  margin-left: -50px;
+  margin-top: 25px;
+}
+header ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 43px;
+}
+header ul li img {
+  margin: 0 15px !important;
+}
+.disabled {
+  border-bottom: 1px #ffffff solid;
+  font-weight: 500;
+}
+.enabled {
+  opacity: 0.8;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 auto;
+  max-width: 1600px;
+}
+
+.yl {
+  background: url("/images/your-life-bg.png") no-repeat center;
+  width: 100%;
+  height: 788px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: -22px;
+  z-index: -1;
+}
+.yl-h {
+  width: 730px;
+  height: 75px;
+  font-weight: bold;
+  font-size: 63px;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: absolute;
+  text-align: center;
+  top: 188px;
+}
+
+.yl-p {
+  position: absolute;
+  top: 331px;
+  width: 504px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 140%;
+  opacity: 0.9;
+}
+
+.yl-b {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-transform: uppercase;
+  width: 184px;
+  height: 46px;
+  top: 428px;
+  background: #00afdb;
+}
+
+.yl-icons {
+  position: absolute;
+  top: 657px;
+}
+
+.yl-icons img{
+  margin: 0 13px;
+}
+
+.rapp{
+  position: relative;
+  top: 655px;
+  height: 842px;
+}
+
+.rapp-img{
+  position: relative;
+  width: 407px;
+  height: 582px;
+  top: 120px;
+  float: right;
+  margin-right: 16.85%;
+}
