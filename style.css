@@ -15,6 +15,17 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-transform: uppercase;
+  width: 184px;
+  height: 46px;
+  background: #00afdb;
+}
 .container {
   position: relative;
 }
@@ -88,16 +99,7 @@ header ul li img {
 }
 
 .yl-b {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  text-transform: uppercase;
-  width: 184px;
-  height: 46px;
   top: 428px;
-  background: #00afdb;
 }
 
 .yl-icons {
@@ -111,15 +113,55 @@ header ul li img {
 
 .rapp{
   position: relative;
+  display: flex;
   top: 655px;
   height: 842px;
 }
 
 .rapp-img{
-  position: relative;
+  position: absolute;
   width: 407px;
   height: 582px;
   top: 120px;
-  float: right;
-  margin-right: 16.85%;
+  left: 57.7%;
+}
+
+.rapp-left{
+  position: relative;
+  width: 407px;
+  height: 257px;
+  left: 16.7%;
+  top: 271px;
+}
+
+.rapp-h{
+  position: absolute;
+  width: 380px;
+  height: 57px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.rapp-p{
+  position: absolute;
+  width: 407px;
+  height: 80px;
+  left: 0px;
+  top: 87px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4E4E4E;
+}
+
+.rapp-b{
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
