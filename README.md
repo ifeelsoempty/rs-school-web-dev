@@ -1,1 +1,1 @@
-# rs-school-web-dev
+# web-dev
