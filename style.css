@@ -7,15 +7,26 @@ body {
   line-height: 140%;
   color: #ffffff;
 }
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 auto;
+  max-width: 1600px;
+  min-width: 1600px;
+}
+
 @font-face {
   font-family: "Roboto";
-  src: url(images/Roboto-Regular.ttf);
+  src: url("assets/Roboto-Regular.ttf");
 }
+
 a {
   text-decoration: none;
   color: #ffffff;
 }
-.button{
+
+.button {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -26,27 +37,27 @@ a {
   height: 46px;
   background: #00afdb;
 }
-.container {
-  position: relative;
-  min-width: 1200px; 
-}
+
 header {
   display: flex;
   justify-content: center;
   z-index: 999;
 }
+
 header ul {
   display: flex;
   list-style: none;
   margin-left: -50px;
   margin-top: 25px;
 }
+
 header ul li {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 43px;
 }
+
 header ul li img {
   margin: 0 15px !important;
 }
@@ -59,14 +70,8 @@ header ul li img {
   font-weight: 100;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 auto;
-  max-width: 1600px;
-}
-
 .yl {
-  background: url("images/your-life-bg.png") no-repeat center;
+  background: url("assets/your-life-bg.png") no-repeat center;
   width: 100%;
   height: 788px;
   position: absolute;
@@ -108,18 +113,18 @@ header ul li img {
   top: 657px;
 }
 
-.yl-icons img{
+.yl-icons img {
   margin: 0 13px;
 }
 
-.rapp{
+.rapp {
   position: relative;
   display: flex;
   top: 655px;
   height: 842px;
 }
 
-.rapp-img{
+.rapp-img {
   position: absolute;
   width: 407px;
   height: 582px;
@@ -127,7 +132,7 @@ header ul li img {
   left: 57.7%;
 }
 
-.rapp-left{
+.rapp-left {
   position: relative;
   width: 407px;
   height: 257px;
@@ -135,7 +140,7 @@ header ul li img {
   top: 271px;
 }
 
-.rapp-h{
+.rapp-h {
   position: absolute;
   width: 380px;
   height: 57px;
@@ -147,7 +152,7 @@ header ul li img {
   color: #373737;
 }
 
-.rapp-p{
+.rapp-p {
   position: absolute;
   width: 407px;
   height: 80px;
@@ -158,11 +163,92 @@ header ul li img {
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  color: #4E4E4E;
+  color: #4e4e4e;
 }
 
-.rapp-b{
+.rapp-b {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+.community {
+  position: relative;
+  height: 504px;
+  top: 655px;
+  background: #f5f6f7;
+  color: #4e4e4e;
+}
+.community-left-block {
+  position: absolute;
+  text-align: center;
+  width: 298px;
+  height: 175px;
+  left: 270px;
+  top: 154px;
+}
+.community-h {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.community-p {
+  position: relative;
+  line-height: 20px;
+  font-size: 14px;
+  top: -5px;
+}
+
+.slider {
+  position: absolute;
+  left: 678px;
+  top: 120px;
+}
+.slides * {
+  margin-left: 27px;
+}
+
+.arrow {
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid #4e4e4e;
+  border-right: 2px solid #4e4e4e;
+  margin-top: 6px;
+}
+
+.slider-control {
+  display: flex;
+  position: absolute;
+  width: 79px;
+  height: 20px;
+  left: 575px;
+  top: -41px;
+}
+.arrow-left {
+  transform: rotate(45deg);
+}
+
+.arrow-right {
+  transform: rotate(-135deg);
+}
+
+.slide-position {
+  font-size: 18px;
+  line-height: 140%;
+  margin: 0 11px;
+}
+
+.implement {
+  height: 842px;
+  position: relative;
+  top: 655px;
+}
+
+.subscribe {
+  position: relative;
+  height: 598px;
+  background: url("assets/subscribe-bg.png");
+  top: 655px;
 }
