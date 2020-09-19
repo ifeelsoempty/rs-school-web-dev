@@ -28,6 +28,7 @@ a {
 }
 .container {
   position: relative;
+  min-width: 1200px; 
 }
 header {
   display: flex;
