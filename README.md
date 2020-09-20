@@ -1,1 +1,1 @@
-https://ifeelsoempty.github.io/web-dev/
+https://ifeelsoempty.github.io/webdev/
