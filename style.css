@@ -38,17 +38,21 @@ a {
   background: #00afdb;
 }
 
+.button:hover{
+  background: #009CC2;
+}
+
 header {
   display: flex;
   justify-content: center;
-  z-index: 999;
+  position: relative;
+  top: -322px;
+  left: -26px;
 }
 
 header ul {
   display: flex;
   list-style: none;
-  margin-left: -50px;
-  margin-top: 25px;
 }
 
 header ul li {
@@ -73,29 +77,27 @@ header ul li img {
 .yl {
   background: url("assets/your-life-bg.png") no-repeat center;
   width: 100%;
-  height: 788px;
-  position: absolute;
+  height: 744px;
   display: flex;
   justify-content: center;
-  top: -22px;
-  z-index: -1;
 }
 .yl-h {
-  width: 730px;
+  width: 750px;
   height: 75px;
-  font-weight: bold;
+  left: 429px;
+  font-weight: 900;
   font-size: 63px;
   line-height: 75px;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 5.4px;
   position: absolute;
   text-align: center;
-  top: 188px;
+  top: 168px;
 }
 
 .yl-p {
   position: absolute;
-  top: 331px;
+  top: 310px;
   width: 504px;
   height: 50px;
   text-align: center;
@@ -105,12 +107,12 @@ header ul li img {
 }
 
 .yl-b {
-  top: 428px;
+  top: 406px;
 }
 
 .yl-icons {
   position: absolute;
-  top: 657px;
+  top: 634px;
 }
 
 .yl-icons img {
@@ -118,9 +120,8 @@ header ul li img {
 }
 
 .rapp {
-  position: relative;
   display: flex;
-  top: 655px;
+  position: relative;
   height: 842px;
 }
 
@@ -129,15 +130,15 @@ header ul li img {
   width: 407px;
   height: 582px;
   top: 120px;
-  left: 57.7%;
+  right: 270px;
 }
 
 .rapp-left {
   position: relative;
   width: 407px;
   height: 257px;
-  left: 16.7%;
-  top: 271px;
+  left: 268px;
+  top: 272px;
 }
 
 .rapp-h {
@@ -158,9 +159,6 @@ header ul li img {
   height: 80px;
   left: 0px;
   top: 87px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
   color: #4e4e4e;
@@ -175,7 +173,6 @@ header ul li img {
 .community {
   position: relative;
   height: 504px;
-  top: 655px;
   background: #f5f6f7;
   color: #4e4e4e;
 }
@@ -241,14 +238,24 @@ header ul li img {
 }
 
 .implement {
-  height: 842px;
   position: relative;
-  top: 655px;
+  height: 842px;
 }
 
 .subscribe {
   position: relative;
   height: 598px;
   background: url("assets/subscribe-bg.png");
-  top: 655px;
+}
+
+.download {
+  position: relative;
+  height: 468px;
+  background: #F5F6F7;
+}
+
+footer{
+  position: relative;
+  height: 184px;
+  background: #000000;
 }
