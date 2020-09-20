@@ -299,7 +299,7 @@ header ul li img {
 
 .subscribe {
   position: relative;
-  height: 598px;
+  height: 524px;
   background: url("assets/subscribe-bg.png");
 }
 
@@ -308,7 +308,7 @@ header ul li img {
   width: 415px;
   height: 104px;
   left: 597px;
-  top: 193px;
+  top: 176px;
 }
 
 .subscribe-p{
@@ -368,6 +368,77 @@ header ul li img {
   position: relative;
   height: 468px;
   background: #F5F6F7;
+}
+
+
+.download-content{
+  position: absolute;
+  width: 470px;
+  left: 565px;
+  top: 96px;
+  color: #373737;
+  text-align: center;
+}
+
+.download-h{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.download-p{
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: -3px;
+  color: #4E4E4E;
+}
+
+.download-link{
+  position: absolute;
+  width: 186px;
+  height: 46px;
+}
+
+.download-link a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  width: 126px;
+  height: 46px;
+  background: #00AFDB;
+}
+
+.download-link a:hover{
+  background: #009CC2;
+  cursor: pointer;
+}
+
+.download-link div{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 46px;
+  background: #009CC2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apple{
+  margin-left: 34px;
+  margin-top: 15px;
+}
+
+.android{
+  left: 250px;
+  margin-top: 15px;
 }
 
 footer{
