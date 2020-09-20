@@ -1,128 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Webdev</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width">
-</head>
-
-<body>
-  <h1 class="invisible-h1">webdev</h1>
-  <div class="container">
-      <section class="yl">
-        <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webdev</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <h1 class="invisible-h1">webdev</h1>
+    <div class="container">
+        <section class="yl">
+          <header>
+            <ul>
+              <li><a class="disabled" href="#">About</a></li>
+              <li><a class="enabled" href="#">Syllabus</a></li>
+              <li><img src="assets/logo.png" alt="logo"></li>
+              <li><a class="enabled" href="#">Projects</a></li>
+              <li><a class="enabled" href="#">FAQ</a></li>
+            </ul>
+          </header>
+          <p class="yl-h">your life is webdev</p>
+          <p class="yl-p">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
+          <a href="#" class="button yl-b">get started</a>
+          <div class="yl-links">
+            <a href="#"><img src="assets/mail-icon.svg" alt="mail"></a>
+            <a href="#"><img src="assets/fb-icon.svg" alt="fb"></a>
+            <a href="#"><img src="assets/inst-icon.svg" alt="inst"></a>
+            <a href="#"><img src="assets/yt-icon.svg" alt="yt"></a>
+          </div>
+        </section>
+        <section class="rapp">
+          <div class="rapp-left">
+            <p class="rapp-h">Rappresent your idea with a smart Design</p>
+            <p class="rapp-p">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, 
+              <strong>implementation of build systems</strong>, and management of derived artifacts, such as the machine code of 
+              computer programs.
+            </p>
+            <a href="#" class="button rapp-b">get started</a>
+          </div>
+          <img class="rapp-img" src="assets/rapp-image.png" alt="">
+        </section>
+        <section class="community">
+          <div class="community-left-block">
+            <img src="assets/community-logo.png" alt="">
+            <p class="community-h">our community</p>
+            <p class="community-p">
+              A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, 
+              but it can also mean a security hacker in common language
+            </p>
+          </div>
+          <div class="slider">
+            <div class="slider-control">
+              <div class="arrow arrow-left"></div>
+              <div class="control-position">
+                <div class="control-current-position">1</div>
+                <div class="control-divider">/</div>
+                <div class="control-max-position">5</div>
+              </div>
+              <div class="arrow arrow-right"></div>
+            </div>
+            <div class="slides">
+              <img src="assets/slide-1.png" alt="">
+              <img src="assets/slide-2.png" alt="">
+              <img src="assets/slide-3.png" alt="">
+            </div>
+          </div>
+        </section>
+        <section class="implement">
+          <div class="implement-right-block">
+            <p class="implement-h">Implement right Code</p>
+            <p class="implement-p">These might be considered part of the <strong>programming process</strong>, 
+              but often the term software development is used for this 
+              larger process with the term programming, implementation
+            </p>
+            <a href="#" class="button implement-b">learn more</a>
+          </div>
+          <img src="assets/implement-image.png" alt="">
+        </section>
+        <section class="subscribe">
+          <div class="subscribe-content">
+            <p class="subscribe-p">sign up for our newsletter</p>
+            <form action="#">
+              <input required type="email" placeholder="E-mail">
+              <button type="submit">
+                <img src="assets/fa-check.svg" alt="">
+              </button>
+            </form>
+          </div>
+        </section>
+        <section class="download">
+          <div class="download-content">
+            <p class="download-h">Download the App</p>
+            <p class="download-p">Machine code was the language of early programs, 
+              written in the instruction set of the particular machine, often in binary notation.
+            </p>
+            <div class="download-link apple">
+              <a href="#">Apple store</a>
+              <div>
+                <img src="assets/apple-icon.svg" alt="apple">
+              </div>
+            </div>
+            <div class="download-link android">
+              <a href="#">Play market</a>
+              <div>
+                <img src="assets/android-icon.svg" alt="android">
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
           <ul>
-            <li><a class="disabled" href="#">About</a></li>
-            <li><a class="enabled" href="#">Syllabus</a></li>
-            <li><ahref="#"><img src="assets/logo.png" alt=""></ahref=></li>
-            <li><a class="enabled" href="#">Projects</a></li>
-            <li><a class="enabled" href="#">FAQ</a></li>
+            <li><a href="#">Credits</a></li>
+            <li class="menu-items-divider">|</li>
+            <li><a href="#">Privacy</a></li>
+            <li class="menu-items-divider">|</li>
+            <li><a href="#">Our teams</a></li>
           </ul>
-        </header>
-        <p class="yl-h">your life is webdev</p>
-        <p class="yl-p">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
-        <a href="#" class="button yl-b">get started</a>
-        <div class="yl-icons">
-          <a href="#"><img src="assets/mail-icon.svg" alt="mail"></a>
-          <a href="#"><img src="assets/fb-icon.svg" alt="facebook"></a>
-          <a href="#"><img src="assets/inst-icon.svg" alt="instagram"></a>
-          <a href="#"><img src="assets/yt-icon.svg" alt="youtube"></a>
-        </div>
-      </section>
-      <section class="rapp">
-        <div class="rapp-left">
-          <p class="rapp-h">Rappresent your idea with a smart Design</p>
-          <p class="rapp-p">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, 
-            <strong>implementation of build systems</strong>, and management of derived artifacts, such as the machine code of 
-            computer programs.
-          </p>
-          <a href="#" class="button rapp-b">get started</a>
-        </div>
-        <img class="rapp-img" src="assets/rapp-content-img.png" alt="">
-      </section>
-      <section class="community">
-        <div class="community-left-block">
-          <img src="assets/community-logo.png" alt="">
-          <p class="community-h">our community</p>
-          <p class="community-p">
-            A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, 
-            but it can also mean a security hacker in common language
-          </p>
-        </div>
-        <div class="slider">
-          <div class="slider-control">
-            <div class="arrow arrow-left"></div>
-            <div class="control-position">
-              <div class="control-current-position">1</div>
-              <div class="control-divider">/</div>
-              <div class="control-max-position">5</div>
-            </div>
-            <div class="arrow arrow-right"></div>
-          </div>
-          <div class="slides">
-            <img src="assets/slide-1.png" alt="">
-            <img src="assets/slide-2.png" alt="">
-            <img src="assets/slide-3.png" alt="">
-          </div>
-        </div>
-      </section>
-      <section class="implement">
-        <div class="implement-right-block">
-          <p class="implement-h">Implement right Code</p>
-          <p class="implement-p">These might be considered part of the <strong>programming process</strong>, 
-            but often the term software development is used for this 
-            larger process with the term programming, implementation
-          </p>
-          <a href="#" class="button implement-b">learn more</a>
-        </div>
-        <img src="assets/implement-image.png" alt="">
-      </section>
-      <section class="subscribe">
-        <div class="subscribe-content">
-          <p class="subscribe-p">sign up for our newsletter</p>
-          <form action="#">
-            <input required type="email" placeholder="E-mail">
-            <button type="submit">
-              <img src="assets/fa-check.svg" alt="">
-            </button>
-          </form>
-        </div>
-      </section>
-      <section class="download">
-        <div class="download-content">
-          <p class="download-h">Download the App</p>
-          <p class="download-p">Machine code was the language of early programs, 
-            written in the instruction set of the particular machine, often in binary notation.
-          </p>
-          <div class="download-link apple">
-            <a href="#">Apple store</a>
-            <div>
-              <img src="assets/apple-icon.svg" alt="apple">
-            </div>
-          </div>
-          <div class="download-link android">
-            <a href="#">Play market</a>
-            <div>
-              <img src="assets/android-icon.svg" alt="android">
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer>
-        <ul>
-          <li><a href="#">Credits</a></li>
-          <li class="menu-items-divider">|</li>
-          <li><a href="#">Privacy</a></li>
-          <li class="menu-items-divider">|</li>
-          <li><a href="#">Our teams</a></li>
-        </ul>
-        <img src="assets/logo.png" alt="">
-        <span>by TonYem for RSS at 2020</span>
-      </footer>
-  </div>
-</body>
-
+          <img src="assets/logo.png" alt="">
+          <span>by TonYem for RSS at 2020</span>
+        </footer>
+    </div>
+  </body>
 </html>
