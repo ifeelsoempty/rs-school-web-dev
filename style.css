@@ -26,6 +26,12 @@ a {
   color: #ffffff;
 }
 
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
 .button {
   display: flex;
   flex-direction: row;
@@ -61,6 +67,10 @@ header ul li {
   align-items: center;
   justify-content: center;
   margin: 0 43px;
+}
+
+header ul li a:hover {
+  opacity: 0.5;
 }
 
 header ul li img {
@@ -291,6 +301,67 @@ header ul li img {
   position: relative;
   height: 598px;
   background: url("assets/subscribe-bg.png");
+}
+
+.subscribe-content{
+  position: absolute;
+  width: 415px;
+  height: 104px;
+  left: 597px;
+  top: 193px;
+}
+
+.subscribe-p{
+  position: absolute;
+  font-weight: bold;
+  left: 13px;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1.15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.subscribe form{
+  position: absolute;
+  top: 82px;
+  width: 406px;
+  height: 46px;
+}
+
+.subscribe form input{
+  width: 292px;
+  height: 40px;
+  padding: 3px 24px;
+  border: 0;
+}
+
+.subscribe form input:focus{
+  box-shadow: 0 0 5px inset #007bc2;
+  outline: 0;
+}
+
+.subscribe form button{
+  position: absolute;
+  width: 66px;
+  height: 46px;
+  border: 0;
+  right: 0px;
+  top: 0px;
+  background: #00AFDB;
+}
+
+.subscribe form button:hover{
+  background: #009CC2;
+  cursor: pointer;
+}
+
+.subscribe form button img{
+  margin-top: 3px;
+  margin-left: 1px;
+}
+
+.subscribe form button img:hover{
+  opacity: 0.8;
 }
 
 .download {
