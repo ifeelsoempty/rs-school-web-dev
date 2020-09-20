@@ -40,13 +40,14 @@ a {
 
 .button:hover{
   background: #009CC2;
+  cursor: pointer;
 }
 
 header {
   display: flex;
   justify-content: center;
   position: relative;
-  top: -322px;
+  top: -323px;
   left: -26px;
 }
 
@@ -214,6 +215,19 @@ header ul li img {
   border-right: 2px solid #4e4e4e;
   margin-top: 6px;
 }
+.arrow:hover{
+  border-top: 2px solid #4e4e4e98;
+  border-right: 2px solid #4e4e4e98;
+  cursor: pointer;
+}
+
+.arrow-left {
+  transform: rotate(45deg);
+}
+
+.arrow-right {
+  transform: rotate(-135deg);
+}
 
 .slider-control {
   display: flex;
@@ -222,13 +236,6 @@ header ul li img {
   height: 20px;
   left: 575px;
   top: -41px;
-}
-.arrow-left {
-  transform: rotate(45deg);
-}
-
-.arrow-right {
-  transform: rotate(-135deg);
 }
 
 .slide-position {
@@ -240,6 +247,44 @@ header ul li img {
 .implement {
   position: relative;
   height: 842px;
+}
+
+.implement-right-block{
+  position: absolute;
+  width: 407px;
+  height: 209px;
+  left: 817px;
+  top: 294px;
+}
+
+.implement img{
+  position: absolute;
+  left: 269px;
+  top: 120px;
+}
+
+.implement-h{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.implement-p{
+  position: absolute;
+  top: 60px;
+  left: -1px;
+  color: #4E4E4E;
+  line-height: 20px;
+}
+
+.implement-b{
+  position: absolute;
+  bottom: 0;
+  width: 180px;
+  left: -2px;
 }
 
 .subscribe {
