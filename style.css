@@ -25,6 +25,7 @@ button:focus {
 .container {
   position: relative;
   margin: 0 auto;
+  overflow: hidden;
   max-width: 1600px;
   min-width: 1600px;
 }
@@ -102,7 +103,7 @@ header ul li img {
 .yl-h {
   width: 750px;
   height: 75px;
-  left: 429px;
+  left: 428px;
   font-weight: 900;
   font-size: 63px;
   line-height: 75px;
@@ -285,7 +286,7 @@ header ul li img {
   position: absolute;
   width: 407px;
   height: 209px;
-  left: 817px;
+  left: 815px;
   top: 294px;
 }
 
@@ -297,6 +298,8 @@ header ul li img {
 
 .implement-h{
   font-weight: bold;
+  position: absolute;
+  left: 1px;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 1px;
@@ -307,7 +310,6 @@ header ul li img {
 .implement-p{
   position: absolute;
   top: 60px;
-  left: -1px;
   color: #4E4E4E;
   line-height: 20px;
 }
@@ -316,7 +318,6 @@ header ul li img {
   position: absolute;
   bottom: 0;
   width: 180px;
-  left: -2px;
 }
 
 .subscribe {
