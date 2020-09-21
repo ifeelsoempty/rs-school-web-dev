@@ -1,14 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700,400italic,700italic");
+
 body {
   margin: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 140%;
   color: #ffffff;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("assets/Roboto-Regular.ttf");
 }
 
 a {
@@ -47,6 +44,7 @@ button:focus {
   width: 184px;
   height: 46px;
   background: #00afdb;
+  font-weight: 700;
 }
 
 .button:hover{
@@ -84,7 +82,6 @@ header ul li img {
 
 .disabled {
   border-bottom: 1px #ffffff solid;
-  font-weight: 500;
 }
 
 .enabled {
@@ -104,14 +101,14 @@ header ul li img {
   width: 750px;
   height: 75px;
   left: 428px;
-  font-weight: 900;
-  font-size: 63px;
+  font-size: 64px;
   line-height: 75px;
   text-transform: uppercase;
-  letter-spacing: 5.4px;
   position: absolute;
   text-align: center;
-  top: 167px;
+  top: 165px;
+  letter-spacing: 4.5px;
+  font-weight: 700;
 }
 
 .yl-p {
@@ -126,7 +123,7 @@ header ul li img {
 }
 
 .yl-b {
-  top: 406px;
+  top: 405px;
 }
 
 .yl-links {
@@ -171,7 +168,7 @@ header ul li img {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #373737;
 }
@@ -340,7 +337,7 @@ header ul li img {
   left: 13px;
   font-size: 24px;
   line-height: 28px;
-  letter-spacing: 1.15px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -356,10 +353,15 @@ header ul li img {
   height: 40px;
   padding: 3px 24px;
   border: 0;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.subscribe form input::placeholder{
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .subscribe form input:focus{
-  box-shadow: 0 0 5px inset #007bc2;
+  box-shadow: 0 0 1px 1.5px inset #00AFDB;
   outline: 0;
 }
 
@@ -407,7 +409,7 @@ header ul li img {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  letter-spacing: 1.1px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -426,14 +428,16 @@ header ul li img {
 }
 
 .download-link a{
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 1px;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
   width: 126px;
-  height: 46px;
+  height: 45px;
   background: #00AFDB;
 }
 
